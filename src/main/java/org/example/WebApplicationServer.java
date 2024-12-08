@@ -1,13 +1,13 @@
 package org.example;
 
-/*import java.io.File;
+import java.io.File;
 import org.apache.catalina.startup.Tomcat;
 import org.slf4j.LoggerFactory;
-import org.slf4j.Logger;*/
+import org.slf4j.Logger;
 
 public class WebApplicationServer {
 
-    /*private static final Logger log = LoggerFactory.getLogger(WebApplicationServer.class);
+    private static final Logger log = LoggerFactory.getLogger(WebApplicationServer.class);
 
     public static void main(String[] args) throws Exception {
         String webappDirLocation = "webapps/";
@@ -20,5 +20,5 @@ public class WebApplicationServer {
 
         tomcat.start();
         tomcat.getServer().await();
-    }*/
+    }
 }
